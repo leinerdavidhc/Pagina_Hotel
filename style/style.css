@@ -415,6 +415,8 @@ body {
   .contenedorWidget{
     display:grid;
     grid-template-columns:repeat(3,100%);
+    justify-content: center;
+  align-items: center;
   }
 
   .info img {
