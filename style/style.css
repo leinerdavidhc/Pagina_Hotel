@@ -412,11 +412,9 @@ body {
   .aside{
     width: 100%;
   }
-  .contenedorWidget{
-    display:grid;
-    grid-template-columns:repeat(3,100%);
-    justify-content: center;
-  align-items: center;
+ .contenedorWidget{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
   }
 
   .info img {
